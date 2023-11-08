@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "COMBICON PTS Connector")(type "KiCad")(uri "${KIPRJMOD}/additional_parts/phoenix-contact_connector/1792863.kicad_sym")(options "")(descr ""))
+)
