@@ -6,7 +6,7 @@
 
   (title_block
     (title "Button")
-    (date "2023-11-16")
+    (date "2023-11-22")
     (rev "0.2")
   )
 
@@ -1507,7 +1507,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 146.05 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60b6dd23-1f3b-497d-9f83-eab88187e054)
-    (property "Reference" "J8" (at 143.764 95.758 90)
+    (property "Reference" "J9" (at 143.764 95.758 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "External FG-Flex" (at 126.746 96.52 90)
@@ -1524,7 +1524,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/4a5818b1-c178-488d-ac41-3ad29eecedbe"
-          (reference "J8") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -2034,7 +2034,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 146.05 121.92 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ca2e4a83-cb74-478a-bcf0-7c8df00a23b0)
-    (property "Reference" "J7" (at 143.764 121.158 90)
+    (property "Reference" "J8" (at 143.764 121.158 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "External FG-One" (at 126.746 121.92 90)
@@ -2051,7 +2051,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/4a5818b1-c178-488d-ac41-3ad29eecedbe"
-          (reference "J7") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
