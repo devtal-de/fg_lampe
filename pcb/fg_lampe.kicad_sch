@@ -1585,6 +1585,58 @@
         )
       )
     )
+    (symbol "power:+24V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+24V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+24V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+24V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+24V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+24V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1713,58 +1765,6 @@
       (symbol "GND_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VCC" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VCC_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "VCC_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VCC" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -2790,6 +2790,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4398b7de-82c6-4930-956a-6be6c93b9938)
   )
+  (text "Input 24V 5A PSU" (at 228.6 19.05 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4774b093-94d4-472a-8f57-e725bb256334)
+  )
   (text "LED Mosfets\n" (at 154.94 73.66 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 51cf2c46-ee99-404c-8878-73199f1546e1)
@@ -3470,6 +3474,34 @@
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
           (reference "#PWR0117") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+24V") (at 226.06 22.86 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1edb07f1-c687-4692-858e-9352bbde3018)
+    (property "Reference" "#PWR046" (at 226.06 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+24V" (at 229.87 21.59 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 226.06 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 226.06 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0013cea3-a224-466e-b38e-a069b2ad5e89))
+    (instances
+      (project "fg_lampe"
+        (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
+          (reference "#PWR046") (unit 1)
+        )
+        (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -5027,6 +5059,34 @@
     )
   )
 
+  (symbol (lib_id "power:+24V") (at 38.1 119.38 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8767c4f9-ca96-4f2a-b398-752a7b8ed522)
+    (property "Reference" "#PWR046" (at 38.1 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+24V" (at 38.1 116.205 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 38.1 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 38.1 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bd336ccf-182a-428f-bb10-de02504889e7))
+    (instances
+      (project "fg_lampe"
+        (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
+          (reference "#PWR046") (unit 1)
+        )
+        (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_Small") (at 172.72 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a855b4e-eb36-4aea-93fb-6167d61e803e)
@@ -5082,31 +5142,6 @@
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
           (reference "#PWR081") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 271.78 20.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8ae8b7ad-550f-49b6-bb5f-29c1b3d6e00b)
-    (property "Reference" "#PWR0104" (at 271.78 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 274.574 19.304 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 271.78 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 271.78 20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5a86c848-d458-4268-9614-dcd3ae88d898))
-    (instances
-      (project "fg_lampe"
-        (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
-          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -5356,31 +5391,6 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 226.06 22.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9dd4cf02-3a0e-4b27-aedf-f806391f2fe2)
-    (property "Reference" "#PWR072" (at 226.06 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 226.06 19.558 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 226.06 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 226.06 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a01c279c-4b1f-4c72-bf2f-e44c2d048482))
-    (instances
-      (project "fg_lampe"
-        (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
-          (reference "#PWR072") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 40.64 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f3cc106-997e-4588-abe0-a8bcef6665e4)
@@ -5401,31 +5411,6 @@
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
           (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 38.1 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9f83519e-2a2d-4626-ad4a-a98837761232)
-    (property "Reference" "#PWR012" (at 38.1 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 40.64 118.11 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 38.1 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 38.1 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5c6d6992-aa47-4cac-af0d-fcdbf84832d3))
-    (instances
-      (project "fg_lampe"
-        (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
-          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -6253,6 +6238,34 @@
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
           (reference "C9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+24V") (at 271.78 20.32 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e419684b-fa28-4cea-8c31-b9b7edd86386)
+    (property "Reference" "#PWR046" (at 271.78 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+24V" (at 275.59 19.05 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 271.78 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 271.78 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 106621a9-cd71-4eb6-bbd8-1dadff00f4a8))
+    (instances
+      (project "fg_lampe"
+        (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
+          (reference "#PWR046") (unit 1)
+        )
+        (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
+          (reference "#PWR094") (unit 1)
         )
       )
     )
