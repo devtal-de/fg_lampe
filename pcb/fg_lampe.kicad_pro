@@ -483,6 +483,18 @@
     [
       "4a5818b1-c178-488d-ac41-3ad29eecedbe",
       "Buttons and Inputs"
+    ],
+    [
+      "2b68b19c-d39b-4bf3-9207-bab85263a6c6",
+      "SMA Measurement"
+    ],
+    [
+      "c95642ca-5ec2-4d0e-a6be-a526bd388b6b",
+      "FG Flex Voltage Sensing"
+    ],
+    [
+      "6093cbff-3700-4eca-9c11-96623759c529",
+      "FG One Voltage Sensing"
     ]
   ],
   "text_variables": {}

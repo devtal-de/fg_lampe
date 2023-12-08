@@ -995,7 +995,7 @@
   (symbol (lib_id "Device:R_Small") (at 93.98 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00b55e5d-7e41-4616-890a-725625e9c315)
-    (property "Reference" "R4" (at 94.742 123.444 0)
+    (property "Reference" "R11" (at 94.742 123.444 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 94.742 125.73 0)
@@ -1018,7 +1018,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "R4") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1027,7 +1027,7 @@
   (symbol (lib_id "Transistor_FET:IRF9540N") (at 147.32 78.74 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0cdf4c6b-21b0-4f5c-87d4-46a747919696)
-    (property "Reference" "Q2" (at 153.67 80.01 0)
+    (property "Reference" "Q4" (at 153.67 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRF9540N" (at 153.67 77.47 0)
@@ -1045,7 +1045,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "Q2") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -1112,7 +1112,7 @@
           (reference "C14") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "C14") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -1147,7 +1147,7 @@
           (reference "C14") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "C32") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -1178,7 +1178,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -1213,7 +1213,7 @@
           (reference "U6") (unit 2)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "U6") (unit 2)
+          (reference "U8") (unit 2)
         )
       )
     )
@@ -1241,7 +1241,7 @@
           (reference "#PWR039") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -1250,7 +1250,7 @@
   (symbol (lib_id "Device:R_Small") (at 165.1 111.76 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35495fb1-4d5f-4082-a531-a7944fe7100f)
-    (property "Reference" "R25" (at 167.132 110.236 90)
+    (property "Reference" "R20" (at 167.132 110.236 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 166.116 113.538 90)
@@ -1273,7 +1273,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "R25") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -1301,7 +1301,7 @@
           (reference "#PWR039") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -1329,7 +1329,7 @@
           (reference "#PWR040") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -1338,7 +1338,7 @@
   (symbol (lib_id "Device:R_Small") (at 149.86 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 448cdf52-103d-4342-a456-fd1146f10c30)
-    (property "Reference" "R10" (at 152.146 102.87 0)
+    (property "Reference" "R18" (at 152.146 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1R" (at 152.146 105.41 0)
@@ -1361,7 +1361,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "R10") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -1370,7 +1370,7 @@
   (symbol (lib_id "Device:R_Small") (at 109.22 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a56f708-fd76-434a-baa3-c2176c512a58)
-    (property "Reference" "R7" (at 110.49 94.996 90)
+    (property "Reference" "R13" (at 110.49 94.996 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 110.236 98.298 90)
@@ -1393,7 +1393,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "R7") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -1421,7 +1421,7 @@
           (reference "#PWR039") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -1430,7 +1430,7 @@
   (symbol (lib_id "Device:R_Small") (at 190.5 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55ce60a3-8bf2-4f70-9ea2-16a0288fc4c4)
-    (property "Reference" "R23" (at 192.278 115.316 90)
+    (property "Reference" "R22" (at 192.278 115.316 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 192.278 118.618 90)
@@ -1450,7 +1450,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "R23") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -1459,7 +1459,7 @@
   (symbol (lib_id "Transistor_FET:IRF9540N") (at 147.32 134.62 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56540c34-c5dd-4681-aff5-3534d78e26f6)
-    (property "Reference" "Q3" (at 153.67 135.89 0)
+    (property "Reference" "Q5" (at 153.67 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IRF9540N" (at 153.67 133.35 0)
@@ -1477,7 +1477,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "Q3") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -1486,7 +1486,7 @@
   (symbol (lib_id "Device:C_Small") (at 121.92 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 587a2fb5-fad4-4322-8ed3-eb3a5250be3b)
-    (property "Reference" "C15" (at 121.92 125.476 0)
+    (property "Reference" "C22" (at 121.92 125.476 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2nF" (at 121.92 128.524 0)
@@ -1509,7 +1509,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "C15") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -1537,7 +1537,7 @@
           (reference "#PWR038") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -1565,7 +1565,7 @@
           (reference "#PWR039") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -1593,7 +1593,7 @@
           (reference "#PWR039") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -1628,7 +1628,7 @@
           (reference "U6") (unit 3)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "U6") (unit 3)
+          (reference "U8") (unit 3)
         )
       )
     )
@@ -1659,7 +1659,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -1687,7 +1687,7 @@
           (reference "#PWR040") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -1696,7 +1696,7 @@
   (symbol (lib_id "Device:R_Small") (at 190.5 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 79263f25-dff9-4db9-9c6a-7beedc421e88)
-    (property "Reference" "R22" (at 192.278 89.916 90)
+    (property "Reference" "R21" (at 192.278 89.916 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 192.278 93.218 90)
@@ -1716,7 +1716,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "R22") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -1725,7 +1725,7 @@
   (symbol (lib_id "Device:R_Small") (at 93.98 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 856af949-3617-4dd5-8ff5-7b5dcfdad42d)
-    (property "Reference" "R5" (at 94.742 148.844 0)
+    (property "Reference" "R12" (at 94.742 148.844 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 94.742 151.13 0)
@@ -1748,7 +1748,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "R5") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -1783,7 +1783,7 @@
           (reference "U6") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "U6") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -1811,7 +1811,7 @@
           (reference "#PWR036") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -1842,7 +1842,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -1851,7 +1851,7 @@
   (symbol (lib_id "Device:R_Small") (at 121.92 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4eee17b-e2d5-479c-9e71-586ae9b0a937)
-    (property "Reference" "R8" (at 122.682 72.39 0)
+    (property "Reference" "R14" (at 122.682 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 122.682 74.93 0)
@@ -1871,7 +1871,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "R8") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -1880,7 +1880,7 @@
   (symbol (lib_id "Device:R_Small") (at 134.62 119.38 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac44e7ed-be73-4b2e-b21f-afafb5df22d7)
-    (property "Reference" "R11" (at 136.652 117.856 90)
+    (property "Reference" "R16" (at 136.652 117.856 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 135.636 121.158 90)
@@ -1903,7 +1903,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "R11") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -1931,7 +1931,7 @@
           (reference "#PWR038") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR0121") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -1940,7 +1940,7 @@
   (symbol (lib_id "Device:R_Small") (at 121.92 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aff32380-0777-4d3c-85b0-6da62cfca356)
-    (property "Reference" "R9" (at 122.682 82.55 0)
+    (property "Reference" "R15" (at 122.682 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 122.682 85.09 0)
@@ -1960,7 +1960,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "R9") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -1991,7 +1991,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -2026,7 +2026,7 @@
           (reference "C13") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "C31") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -2057,7 +2057,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -2066,7 +2066,7 @@
   (symbol (lib_id "Device:R_Small") (at 83.82 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc71d2f3-04b4-4309-8dd0-5b54e80764f9)
-    (property "Reference" "R6" (at 85.09 130.556 90)
+    (property "Reference" "R10" (at 85.09 130.556 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 84.836 133.858 90)
@@ -2089,7 +2089,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "R6") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2098,7 +2098,7 @@
   (symbol (lib_id "Device:R_Small") (at 134.62 134.62 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7721de9-67c6-4d71-91e3-2e3e53c8fc65)
-    (property "Reference" "R12" (at 134.62 133.096 90)
+    (property "Reference" "R17" (at 134.62 133.096 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 134.62 136.398 90)
@@ -2121,7 +2121,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "R12") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -2152,7 +2152,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -2183,7 +2183,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -2218,7 +2218,7 @@
           (reference "C13") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "C13") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -2227,7 +2227,7 @@
   (symbol (lib_id "Transistor_BJT:BC547") (at 119.38 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e734dac2-b1de-4d12-a49c-9b6a1ccd6f56)
-    (property "Reference" "Q1" (at 124.46 95.25 0)
+    (property "Reference" "Q3" (at 124.46 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC547" (at 124.46 97.79 0)
@@ -2245,7 +2245,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "Q1") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -2273,7 +2273,7 @@
           (reference "#PWR036") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -2282,7 +2282,7 @@
   (symbol (lib_id "Device:R_Small") (at 165.1 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid feb8ef81-277d-48c0-816a-1c9c3e6ab5b8)
-    (property "Reference" "R24" (at 167.132 94.996 90)
+    (property "Reference" "R19" (at 167.132 94.996 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 166.116 98.298 90)
@@ -2305,7 +2305,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/ba76f9dc-1045-4df8-971c-12fc9c8a3a7f"
-          (reference "R24") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )

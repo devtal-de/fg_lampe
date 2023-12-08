@@ -1010,7 +1010,7 @@
           (reference "R12") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "R18") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -1042,7 +1042,7 @@
           (reference "R9") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "R20") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -1080,7 +1080,7 @@
           (reference "U6") (unit 2)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "U7") (unit 2)
+          (reference "U10") (unit 2)
         )
       )
     )
@@ -1111,7 +1111,7 @@
           (reference "#PWR040") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -1146,7 +1146,7 @@
           (reference "R5") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "R15") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -1177,7 +1177,7 @@
           (reference "#PWR065") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -1186,7 +1186,7 @@
   (symbol (lib_id "power:+24V") (at 228.6 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 160fae29-9477-433c-95ea-89f17e0aa85e)
-    (property "Reference" "#PWR0120" (at 228.6 41.91 0)
+    (property "Reference" "#PWR0109" (at 228.6 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 228.6 34.925 0)
@@ -1202,7 +1202,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
           (reference "#PWR012") (unit 1)
@@ -1243,7 +1243,7 @@
           (reference "C14") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "C17") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -1252,7 +1252,7 @@
   (symbol (lib_id "power:+24V") (at 20.32 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1dcb3dbd-ea0b-4616-bbf4-87971c6eb472)
-    (property "Reference" "#PWR046" (at 20.32 29.21 0)
+    (property "Reference" "#PWR095" (at 20.32 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 20.32 22.225 0)
@@ -1268,7 +1268,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
           (reference "#PWR012") (unit 1)
@@ -1302,7 +1302,7 @@
           (reference "#PWR036") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -1311,7 +1311,7 @@
   (symbol (lib_id "power:+24V") (at 104.14 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 213735e3-2755-4ecc-9a1e-031542d9980b)
-    (property "Reference" "#PWR054" (at 104.14 92.71 0)
+    (property "Reference" "#PWR0101" (at 104.14 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 104.14 85.725 0)
@@ -1327,7 +1327,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
           (reference "#PWR012") (unit 1)
@@ -1339,7 +1339,7 @@
   (symbol (lib_id "power:+24V") (at 193.04 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 27d5e970-db44-431e-9a4d-4500f5be054a)
-    (property "Reference" "#PWR0124" (at 193.04 67.31 0)
+    (property "Reference" "#PWR0106" (at 193.04 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 193.04 60.325 0)
@@ -1355,7 +1355,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR0124") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
           (reference "#PWR012") (unit 1)
@@ -1388,7 +1388,7 @@
           (reference "Q2") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "Q5") (unit 1)
+          (reference "Q7") (unit 1)
         )
       )
     )
@@ -1419,7 +1419,7 @@
           (reference "#PWR041") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -1454,7 +1454,7 @@
           (reference "R4") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "R14") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -1485,7 +1485,7 @@
           (reference "#PWR063") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -1520,7 +1520,7 @@
           (reference "U9") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "U10") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
     )
@@ -1551,7 +1551,7 @@
           (reference "#PWR038") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -1583,7 +1583,7 @@
           (reference "R23") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "R29") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -1592,7 +1592,7 @@
   (symbol (lib_id "power:+24V") (at 30.48 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60ae3c09-a4c0-4e31-b3cb-435ba42fc76d)
-    (property "Reference" "#PWR052" (at 30.48 29.21 0)
+    (property "Reference" "#PWR097" (at 30.48 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 30.48 22.225 0)
@@ -1608,7 +1608,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
           (reference "#PWR012") (unit 1)
@@ -1641,7 +1641,7 @@
           (reference "Q3") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "Q6") (unit 1)
+          (reference "Q8") (unit 1)
         )
       )
     )
@@ -1679,7 +1679,7 @@
           (reference "U6") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "U7") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -1710,7 +1710,7 @@
           (reference "#PWR038") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -1719,7 +1719,7 @@
   (symbol (lib_id "power:+24V") (at 160.02 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f7d464f-031c-4fdf-94ed-c81082e2762e)
-    (property "Reference" "#PWR066" (at 160.02 41.91 0)
+    (property "Reference" "#PWR0105" (at 160.02 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 160.02 34.925 0)
@@ -1735,7 +1735,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
           (reference "#PWR012") (unit 1)
@@ -1773,7 +1773,7 @@
           (reference "R7") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "R16") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -1808,7 +1808,7 @@
           (reference "R6") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "R13") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -1846,7 +1846,7 @@
           (reference "C14") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "C34") (unit 1)
+          (reference "C29") (unit 1)
         )
       )
     )
@@ -1878,7 +1878,7 @@
           (reference "R22") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "R28") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -1909,7 +1909,7 @@
           (reference "#PWR039") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -1940,7 +1940,7 @@
           (reference "#PWR043") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -1975,7 +1975,7 @@
           (reference "R25") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "R27") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -1984,7 +1984,7 @@
   (symbol (lib_id "power:+24V") (at 124.46 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid beba1d20-17b3-4f51-bae9-5079feb7cda2)
-    (property "Reference" "#PWR056" (at 124.46 41.91 0)
+    (property "Reference" "#PWR0103" (at 124.46 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 124.46 34.925 0)
@@ -2000,7 +2000,7 @@
     (instances
       (project "fg_lampe"
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd"
           (reference "#PWR012") (unit 1)
@@ -2034,7 +2034,7 @@
           (reference "#PWR040") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR0127") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -2064,7 +2064,7 @@
           (reference "Q1") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "Q4") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -2099,7 +2099,7 @@
           (reference "R24") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "R26") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -2137,7 +2137,7 @@
           (reference "C13") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "C33") (unit 1)
+          (reference "C28") (unit 1)
         )
       )
     )
@@ -2168,7 +2168,7 @@
           (reference "#PWR039") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )
@@ -2206,7 +2206,7 @@
           (reference "U6") (unit 3)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "U7") (unit 3)
+          (reference "U10") (unit 3)
         )
       )
     )
@@ -2241,7 +2241,7 @@
           (reference "R10") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "R21") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -2279,7 +2279,7 @@
           (reference "C13") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "C16") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -2314,7 +2314,7 @@
           (reference "R11") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "R17") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -2349,7 +2349,7 @@
           (reference "C15") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "C18") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -2381,7 +2381,7 @@
           (reference "R8") (unit 1)
         )
         (path "/6ce7d73a-8297-412b-a1cf-6113d41486fd/1320187d-24fd-4fe0-8f0e-0b43909d8592"
-          (reference "R19") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
