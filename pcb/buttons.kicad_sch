@@ -5,9 +5,10 @@
   (paper "A4")
 
   (title_block
-    (title "Button")
-    (date "2023-11-22")
-    (rev "0.2")
+    (title "Buttons and Inverters")
+    (date "2023-12-09")
+    (rev "0.5")
+    (company "/dev/tal e.V.")
   )
 
   (lib_symbols

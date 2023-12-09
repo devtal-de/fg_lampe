@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "FG Flex Amplifier Circuit")
+    (date "2023-12-09")
+    (rev "0.5")
+    (company "/dev/tal e.V.")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Operational:LM324" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 5.08 0)
@@ -818,7 +825,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 48072dcc-ac30-4a9e-a5fe-ec90a6064b83)
   )
-  (hierarchical_label "I_FG_FLEX" (shape input) (at 50.8 48.26 180) (fields_autoplaced)
+  (hierarchical_label "I_FG_Flex" (shape input) (at 50.8 48.26 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 801ca89c-bd86-4d3b-96c7-b3f22cfe77e4)
   )
